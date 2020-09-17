@@ -1,0 +1,264 @@
+body
+{
+  text-align: center;
+  background-color: #111;
+
+}
+*{
+  box-sizing: border-box;
+}
+.tophead{
+  /* background-color: #6e00ff; */
+  
+  height: auto;
+ 
+  /* max-height: 20%; */
+  /* padding-bottom: 20px;
+  padding-top: 10px; */
+  /* border-bottom-left-radius: 10%; */
+   
+}
+.btn-dark
+{
+  /* position: absolute;
+  left:20px ;
+  top:30px ;
+  margin-right: 20px;
+  z-index: 1; */
+  /* position: relative;
+  text-indent: 49%; */
+  position: relative;
+  right: 49%;
+  top:70px;
+  top:30px;
+  margin:0 auto;
+}  
+/* #ba54f5 */
+/* .jumbotron {
+  padding: 1rem 2rem;
+} */
+img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.navbar-expand-lg 
+{
+  
+  position: relative;
+  width: 95%;
+  margin:0 auto ;
+  left:3%;
+  bottom:40px;
+
+  
+  
+} 
+
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: whitesmoke;
+  /* padding-bottom: 2.5rem; */
+  /* padding-top: .5rem; */
+  /* padding-left: 150px; */
+}
+.navicon
+{
+  margin: auto 10px;
+  color:whitesmoke;
+} 
+/* .nav-link
+{
+  padding-bottom: 2.5rem;
+} */
+p{
+  font-size: 1rem;
+  text-align: center;
+  color:whitesmoke;
+}
+hr{
+   margin-top: 0rem;
+   margin-bottom: 0rem;
+  border-top:1px solid hsla(0,0%,100%,.1)!important;
+  width:40%;
+  position: absolute;
+  left:58%;
+}
+.welcome
+{
+  display: inline-block;
+  position: relative;
+  right:295px;
+  color: whitesmoke;
+  text-overflow: ellipsis;
+}
+.image
+{
+  position: relative;
+  left: 90px;
+  float: left;
+}
+.i1
+{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+
+}
+/* .card
+{   position: absolute;
+  /* background-color:#525f7f; */
+  /* margin-left: 20%;
+  margin-right: 5%;
+  top:px;
+  z-index: 0;} */
+
+/* sidebar */
+#sidebar-wrapper
+{
+  z-index:1;
+ position: absolute;
+ /* width:0; */
+ /* width:80px; */
+ height: 100%;
+ overflow-y: hidden;
+  margin-top:15px;
+
+ 
+
+  opacity: 0.9;
+  text-align: center;
+ 
+   background:#ba54f5; 
+   background:#95389e;
+   background: #ad62aa;
+   background-color: #1d1b38;
+   border-radius: 1%;
+   
+ /* position: absolute;
+ width:100%;
+ 
+ height: 100vh; */
+
+}
+.sidebar-nav li span:nth-child(2){
+  display: none;
+}
+li
+{
+  display: inline-block;
+  text-align: left;
+}
+
+/* main-content */
+#page-content-wrapper
+{
+   z-index: 0; 
+  width: 100%;
+  position:absolute ;
+  padding: 15px;
+  padding-left: 90px;
+   border-radius: 0.625rem; 
+   margin: auto;
+  
+  
+}
+#page-content-wrapper p
+{
+  color:#fff;
+  background-color: #1d1b38;
+  background-color: #666; 
+}
+/* change side bar to display it */
+/* 
+#wrapper.menudisplayed #sidebar-wrapper{
+  width:250px;
+
+}
+#wrapper.menudisplayed .sidebar-nav li span:nth-child(2){
+  display: inline;
+}
+#wrapper.menudisplayed #page-content-wrapper {
+  padding-left:270px;
+  
+}
+#wrapper.menudisplayed1 #page-content-wrapper {
+  padding-top:150px;
+} */
+/* side bar styling */
+.sidebar-nav
+{
+  padding:0;
+  list-style:none;
+}
+
+.sidebar-nav li{
+  text-indent: 15px;
+  line-height: 40px;
+  padding:20px 0px;
+  border-bottom:1px solid #333;
+
+  border-width: inherit;
+}
+.sidebar-nav li i
+{
+  font-size:26px;
+ 
+}
+.sidebar-nav li a{
+  display:block;
+  text-decoration: none;
+  color:wheat;
+}
+.sidebar-nav li :hover{
+  color:#16A085;
+  color: white;
+
+}
+
+#sidebar-wrapper.hovered .card {
+  padding-left:270px;
+}
+
+
+#sidebar-wrapper.hovered 
+{
+  width: 250px;
+  
+  
+}
+
+#sidebar-wrapper.hovered .sidebar-nav li span:nth-child(2){
+  display: inline;
+}
+/* #sidebar-wrapper.hovered .sidebar-nav .icon-workflow{
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+} */
+.fontaws
+{
+  padding-right:15px;
+}
+.custom-shape-divider-bottom-1598966624 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1598966624 svg {
+  position: relative;
+  display: block;
+  width: calc(170% + 1.3px);
+  height: 500px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1598966624 .shape-fill {
+  fill: #FFFFFF;
+}
